@@ -1,0 +1,29 @@
+// Recommended VSCode configuration for this project.
+{
+    "editor.insertSpaces": true,
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    // Configuration for Elixir.
+    "elixirLS.fetchDeps": false,
+    "[elixir]": {
+        "editor.tabSize": 2,
+        "editor.rulers": [
+            100
+        ]
+    },
+    // Environment vairables for HTTP files.
+    "rest-client.environmentVariables": {
+        "$shared": {},
+        "development": {
+            "base_url": "https://apidev.telnyx.com",
+            "base_url_private": "http://porting.query.ch1-dev.consul:4000/private"
+        },
+        "production": {
+            "base_url": "https://api.telnyx.com",
+            "base_url_private": "http://porting.query.ch1-prod.consul:4000/private"
+        }
+    },
+    "WhiteSource Advise.Diff.BaseBranch": "master"
+}

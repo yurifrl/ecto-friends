@@ -1,0 +1,21 @@
+// Extension recomendation for this project.
+{
+    "recommendations": [
+        // Elixir/Erlang
+        "JakeBecker.elixir-ls",
+        "pgourlain.erlang",
+        // UI
+        "vscode-icons-team.vscode-icons",
+        // Git
+        "eamodio.gitlens",
+        // Infrastructure tools
+        "ms-azuretools.vscode-docker",
+        "ms-kubernetes-tools.vscode-kubernetes-tools",
+        // Misc tools
+        "wmaurer.change-case",
+        "streetsidesoftware.code-spell-checker",
+        "visualstudioexptteam.vscodeintellicode",
+        "humao.rest-client",
+        "mikestead.dotenv"
+    ]
+}
